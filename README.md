@@ -18,9 +18,12 @@ to run this script from anywhere...
 1. Download the script.
 2. copy the path of the script
 3. open your powershell profile by typing ```notepad $PROFILE ``` or ```code $PROFILE``` if you got vscode
-4. type ``` Function digclk {
+4. type...
+```powershell
+    Function digclk {
     & 'C:\path\to\the\digclkscript.ps1'
-}```
+}
+```
 5.save and quit
 6.now if you type digclk in your powershell it will work.
 7. alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1 
