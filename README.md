@@ -10,21 +10,21 @@ A terminal clock for windows users.
 <img width="472" alt="Screenshot 2023-06-28 014649" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/fad5bb44-a1e8-424a-8230-9529b6a03385">
 <br>
 
-<img width="391" alt="image" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/66a2ac5a-81c6-450e-bd6e-5a0fc647de0b">
+<img width="472" alt="image" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/66a2ac5a-81c6-450e-bd6e-5a0fc647de0b">
 
 <br>
 
 to run this script from anywhere...
 1. Download the script.
-2. copy the path of the script
-3. open your powershellprofile.ps1 file by typing ```notepad $PROFILE ``` or ```code $PROFILE``` in your powershell terminal
-4. type...
+2. Copy the path of the script
+3. Open your powershellprofile.ps1 file by typing ```notepad $PROFILE ``` or ```code $PROFILE``` in your powershell terminal
+4. Type...
 ```powershell
     Function digclk {
     & 'C:\path\to\the\digclkscript.ps1'
 }
 ```
-5.save and quit
-6.now if you type digclk in your powershell it will work.
-7. alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1 
+5. Save and quit <br>
+6. Now if you type digclk in your powershell it will work.  <br>
+7. Alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1  <br>
 8. To quit press Ctrl+C
