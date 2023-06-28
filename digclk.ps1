@@ -82,7 +82,8 @@ $digitArt = @{
 function Show-DigitalClock {
     $color='yellow'
     $format='HH:mm' # HH:mm for 24 hour format, hh:mm for 12 hour format
-    $showdate=$true # $true to show date, $false to hide date
+    $dateformat='dddd, dd MMMM,yyyy' # date format
+    $showdate=$false # $true to show date, $false to hide date
 
     
     while ($true) {
@@ -120,7 +121,7 @@ function Show-DigitalClock {
             Write-Host ($h1[$i].PadRight($maxLineLength) + $space + $h2[$i].PadRight($maxLineLength) + $space + $col[$i].PadRight($maxLineLength-2)  + $m1[$i].PadRight($maxLineLength) + $space + $m2[$i].PadRight($maxLineLength)) -ForegroundColor $color
                }
         }if($showdate) {write-host 
-            write-host $space (get-date -format "dddd, dd MMMM,yyyy") -ForegroundColor $color}
+            write-host $space (get-date -format $dateformat) -ForegroundColor $color}
         Start-Sleep -Seconds 10
     }
 }
