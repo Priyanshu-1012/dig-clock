@@ -17,7 +17,7 @@ A terminal clock for windows users.
 to run this script from anywhere...
 1. Download the script.
 2. copy the path of the script
-3. open your powershell profile by typing ```notepad $PROFILE ``` or ```code $PROFILE``` if you got vscode
+3. open your powershellprofile.ps1 file by typing ```notepad $PROFILE ``` or ```code $PROFILE``` in your powershell terminal
 4. type...
 ```powershell
     Function digclk {
