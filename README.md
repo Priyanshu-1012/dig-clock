@@ -9,9 +9,10 @@ A terminal clock for windows users.
 
 <img width="472" alt="Screenshot 2023-06-28 014649" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/fad5bb44-a1e8-424a-8230-9529b6a03385">
 <br>
+<img width="472" alt="image" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/63adfb44-74b6-4acc-8a37-d46ec70ae6d3">
 
+<br>
 <img width="472" alt="image" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/66a2ac5a-81c6-450e-bd6e-5a0fc647de0b">
-
 <br>
 
 to run this script from anywhere...
