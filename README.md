@@ -28,4 +28,4 @@ to run this script from anywhere...
 5. Save and quit <br>
 6. Now if you type digclk in your powershell it will work.  <br>
 7. Alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1  <br>
-8. To quit press Ctrl+C
+8. To quit the clock press Ctrl+C
