@@ -27,3 +27,4 @@ to run this script from anywhere...
 5.save and quit
 6.now if you type digclk in your powershell it will work.
 7. alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1 
+8. To quit press Ctrl+C
