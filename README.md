@@ -15,17 +15,47 @@ A terminal clock for windows users.
 <img width="472" alt="image" src="https://github.com/Priyanshu-1012/dig-clock/assets/39450902/66a2ac5a-81c6-450e-bd6e-5a0fc647de0b">
 <br>
 
-to run this script from anywhere...
-1. Download the script.
-2. Copy the path of the script
-3. Open your powershellprofile.ps1 file by typing ```notepad $PROFILE ``` or ```code $PROFILE``` in your powershell terminal
-4. Type...
+### Installation
+
+_Note: wherever the command says ~/Downloads you can go on and type your preffered location._
+
+1. Download the script by typing the following command in powershell
+   for powershell 7
+   ```powershell
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Priyanshu-1012/dig-clock/master/digclk.ps1" | Select-Object -ExpandProperty Content | Out-File -FilePath ~/Documents/digclk.ps1 -Encoding UTF8
+   ```
+   
+<details>
+<summary>for powershell 5</summary>
+<br>
+    
 ```powershell
-    Function digclk {
-    & 'C:\path\to\the\digclkscript.ps1'
-}
-```
-5. Save and quit <br>
-6. Now if you type digclk in your powershell it will work.  <br>
-7. Alternatively you can just run the script by navigating to the directory where the script is saved and just type ./digclk.ps1  <br>
-8. To quit the clock press Ctrl+C
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Priyanshu-1012/dig-clock/master/digclkv5.ps1" | Select-Object -ExpandProperty Content | Out-File -FilePath ~/Documents/digclkv5.ps1 -Encoding UTF8
+   ```
+
+</details>
+   
+   
+2. Next, paste the following command on terminal.
+   ```powershell
+   "function digclk {
+    `$scriptPath = Resolve-Path -Path '~/Documents/digclk.ps1'
+    & `$scriptPath
+   }" | Add-Content $profile
+   ```
+   
+<details>
+<summary>for powershell 5</summary>
+<br>
+
+   ```powershell
+   "function digclk {
+    `$scriptPath = Resolve-Path -Path '~/Documents/digclkv5.ps1'
+    & `$scriptPath
+   }" | Add-Content $profile
+   ```
+</details>
+   
+3.Run the command ```pwsh``` on the same terminal to relaunch powershell
+
+4.Now you can try and run ```digclk``` command on terminal.
