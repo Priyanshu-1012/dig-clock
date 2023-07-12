@@ -17,7 +17,7 @@ A terminal clock for windows users.
 
 ### Installation
 
-_Note: wherever the command says ~/Downloads you can go on and type your preffered location._
+_Note: wherever the command says ~/Documents you can go on and type your preffered location._
 
 1. Download the script by typing the following command in powershell
    for powershell 7
