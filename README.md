@@ -59,3 +59,8 @@ _Note: wherever the command says ~/Documents you can go on and type your preffer
 3.Run the command ```pwsh``` on the same terminal to relaunch powershell
 
 4.Now you can try and run ```digclk``` command on terminal.
+
+<br>
+<br>
+
+_PRs are welcome!_
